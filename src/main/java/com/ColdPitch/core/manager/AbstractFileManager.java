@@ -13,7 +13,6 @@ import java.util.UUID;
 public abstract class AbstractFileManager implements FileManager{
     private final String path;
 
-
     public AbstractFileManager(String path) {
         this.path = path;
 
